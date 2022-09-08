@@ -1,0 +1,44 @@
+
+
+.Navbar {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.452);
+  backdrop-filter: blur(2px) ;
+  /* -webkit-backdrop-filter: blur(10px) saturate(100%) contrast(100%); */
+  background: rgba(196, 196, 196, 0.11);
+  position: fixed;
+  width: 100vw;
+  height: 5.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+.Logo {
+  height: 6rem;
+  cursor: pointer;
+}
+
+.Refs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.Refs li{
+  margin: 0 2rem;
+  list-style: none;
+}
+.Refs li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+
+}
+
+.Refs li a:hover {
+  color: #004fb0;
+  transition: 0.4s;
+}

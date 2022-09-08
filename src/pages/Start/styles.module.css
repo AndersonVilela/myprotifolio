@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+.Container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(63.13deg, #352728 51.04%, #8E5D52 51.05%);
+}
+
+.Second {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.typing {
+  border-right: 2px solid rgba(255, 255, 255, .75);
+  color: white;
+  font-family: 'Special Elite', monospace;
+  font-size: 3em;
+  margin: 1rem 0;
+  width: 450px;
+  height: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.animation {
+  animation: blinkCursor 500ms steps(40) infinite normal,
+    typiing 4s steps(20) 1ms normal;
+}
+
+@keyframes typiing {
+
+  from {
+
+  width: 0;
+}
+
+  to {
+  
+  width: 9.3em;
+  }
+}
+
+@keyframes blinkCursor {
+  from {
+
+  border-right-color: rgba(255, 255, 255, .75);
+}
+  to {
+
+  border-right-color: transparent;
+
+  }
+}
