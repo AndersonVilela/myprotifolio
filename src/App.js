@@ -5,18 +5,19 @@ import { About } from './pages/About';
 import { Project } from './pages/Project';
 import { Skills } from './pages/Skills';
 import './styles/Global.css';
+import { BrowserRouter as  Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
       <Start />
       <About />
       <Project />
       <Skills />
       <Footer />
-    </div>
+    </>
   );
 }
 

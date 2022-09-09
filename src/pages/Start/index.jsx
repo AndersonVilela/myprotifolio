@@ -5,7 +5,6 @@ export const Start = () => {
 
 
   return (
-
     <div className={Styles.Container} id="Start">
       <div>
         <h2 className={Styles.Second}>Olá, eu sou</h2>
