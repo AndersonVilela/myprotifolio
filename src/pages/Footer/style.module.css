@@ -1,0 +1,21 @@
+
+.containerFooter {
+  width: 100vw;
+  height: 5rem;
+  background: #3a2c2c;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  align-items: center;
+}
+.icons {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  color: white;
+}
+
+.animation:hover{
+  width: 50px;
+  height: 50px;
+}

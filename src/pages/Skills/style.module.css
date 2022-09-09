@@ -13,16 +13,37 @@
 }
 
 .containergrid {
-  margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
   grid-gap: 1rem;
+  
 }
 
 
 .icons {
-  height: 5rem;
-  border-radius: 100%;
+  height: 6rem;
+  border-radius: 15px;
   border: 1px solid #472A2C;
+  margin-left: 1rem;
+  background-color: grey;
 }
+
+.containertext {
+  width: 30rem;
+  height: 30rem;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4e4e4e;
+  border-radius: 15px;
+  flex-direction: column;
+}
+
+.containertext h3 {
+  margin-bottom: 6rem;
+}
+
