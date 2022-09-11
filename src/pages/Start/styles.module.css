@@ -6,7 +6,7 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background: linear-gradient(63.13deg, #352728 51.04%, #8E5D52 51.05%);
 }
 
@@ -55,5 +55,41 @@
 
   border-right-color: transparent;
 
+  }
+}
+
+/* Media Query*/
+
+@media (max-width: 835px) {
+
+  .Second {
+    font-size: 1.6em;
+    margin-left: 2rem;
+  }
+  .typing {
+    font-size: 2.2em;
+    width: 360px;
+    margin-left: 2rem;
+  }
+
+  .esquerda {
+    width:50%;
+    height: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .direita {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .direita img {
+    height: 30rem;
+    margin-left: 8rem;
   }
 }
