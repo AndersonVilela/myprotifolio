@@ -8,7 +8,7 @@ export const Header = () => {
 
   return (
 
-    <div className={styles.Navbar}>
+    <div className={`${styles.Navbar} ${styles.fixed}`}>
       <div>
         <a href='#'>
           <img src={Logo} alt="Logo" title='Logo' className={styles.Logo} />
@@ -17,10 +17,10 @@ export const Header = () => {
 
       <div>
         <ul className={styles.Refs}>
-          <li><a href='#Start'>Start</a></li>
-          <li><a href='#Second'>About Me</a></li>
-          <li><a href='#Project'>Project</a></li>
-          <li><a href='#Skills'>Skills</a></li>
+          <li><a href='#Start'>Começar</a></li>
+          <li><a href='#Second'>Sobre</a></li>
+          <li><a href='#Project'>Projetos</a></li>
+          <li><a href='#Skills'>Habilidades</a></li>
         </ul>
       </div>
     </div>

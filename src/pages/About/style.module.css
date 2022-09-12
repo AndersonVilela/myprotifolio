@@ -47,3 +47,52 @@
   color: white;
   margin: 0.5rem;
 }
+
+
+/* Media query*/
+
+
+@media (max-width: 800px) {
+  
+ 
+  .direito {
+    margin-top: 8rem;
+  }
+
+  .avatar {
+    margin-right: 9rem;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
