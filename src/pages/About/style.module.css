@@ -52,7 +52,7 @@
 /* Media query*/
 
 
-@media (max-width: 800px) {
+@media (max-width: 811px) {
   
  
   .direito {
@@ -60,12 +60,47 @@
   }
 
   .avatar {
-    margin-right: 9rem;
+    margin-right: 15rem;
   }
 
 }
 
+@media (max-width: 428.1px) {
+  .avatar {
+    height: 30rem;
+    margin-right: 10rem;
+    margin-bottom: 4rem;
+  }
 
+  .sobre {
+    height: 14rem;
+    font-size: 0.95rem;
+    margin: 0.5;
+  }
+
+  .Title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 376px) {
+
+  .avatar {
+    height: 25rem;
+  }
+  .sobre {
+    font-size: .85rem;
+    margin: 0.5rem;
+  }
+
+}
+
+@media (max-width: 385px) {
+
+  .sobre {
+    font-size: 0.85rem;
+  }
+}
 
 
 

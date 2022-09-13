@@ -47,3 +47,21 @@
   margin-bottom: 6rem;
 }
 
+/*Media Querys*/
+
+@media (max-width: 801px) {
+ .containergrid {
+  margin-right: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+
+ } 
+
+ .icons {
+  border-radius: 8px;
+ }
+
+ .containertext {
+  width: 25rem;
+  height: 30rem;
+ }
+}

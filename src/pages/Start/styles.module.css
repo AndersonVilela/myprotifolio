@@ -93,3 +93,25 @@
     margin-left: 8rem;
   }
 }
+
+
+@media (max-width: 428.1px) {
+
+  .Second {
+    font-size: 0.9rem;
+    margin: 0 0.5rem;
+    height: 2rem;
+  }
+
+  .typing {
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    height: 1.3rem;
+    width: 11.7rem;
+  }
+
+  .direita img {
+    height: 22rem;
+    margin-bottom: 4rem;
+  }
+}

@@ -17,6 +17,27 @@ export const Project = () => {
           body='Colocando o nome de usuário do github retorna quantos seguindo, sequidores, e linguagens mais utilizadas.'
           direction='https://github.com/AndersonVilela/github-profile'
         />
+        <BoxC
+          className={Style.grid}
+          title='Github Profile'
+          imageUrl='https://github.com/AndersonVilela/github-profile/blob/main/src/images-para-readme/profile1.PNG?raw=true'
+          body='Colocando o nome de usuário do github retorna quantos seguindo, sequidores, e linguagens mais utilizadas.'
+          direction='https://github.com/AndersonVilela/github-profile'
+        />
+         <BoxC
+          className={Style.grid}
+          title='Github Profile'
+          imageUrl='https://github.com/AndersonVilela/github-profile/blob/main/src/images-para-readme/profile1.PNG?raw=true'
+          body='Colocando o nome de usuário do github retorna quantos seguindo, sequidores, e linguagens mais utilizadas.'
+          direction='https://github.com/AndersonVilela/github-profile'
+        />
+         <BoxC
+          className={Style.grid}
+          title='Github Profile'
+          imageUrl='https://github.com/AndersonVilela/github-profile/blob/main/src/images-para-readme/profile1.PNG?raw=true'
+          body='Colocando o nome de usuário do github retorna quantos seguindo, sequidores, e linguagens mais utilizadas.'
+          direction='https://github.com/AndersonVilela/github-profile'
+        />
       </div>
     </div>
   )

@@ -14,7 +14,7 @@ export const About = () => {
         <img src={Image} className={Style.avatar} />
       </div>
       <div className={Style.direito}>
-        <h2 className={Style.Title}>About Me</h2>
+        <h2 className={Style.Title}>Sobre</h2>
         <h3 className={Style.sobre}>Olá, meu nome é Anderson Vilela e eu sou apaixonado
           por tecnologia que através do linux conheceu o mundo da programação.
           Estou disponível a vagas de estágio em desenvolvimento Front-end.
