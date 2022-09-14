@@ -65,3 +65,30 @@
   height: 30rem;
  }
 }
+
+@media (max-width: 428.1px) {
+
+  .containertext {
+    width: 20rem;
+    height: 20rem;
+  }
+  .containergrid {
+   margin: 0 2rem;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+
+  .containerFour {
+    flex-direction: column;
+  }
+
+  .espec {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375.1px) {
+  
+}

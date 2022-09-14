@@ -21,7 +21,7 @@ export const Skills = () => {
     materialUi : 'O Material-UI começou como uma implementação do React da especificação do Material Design do Google em 2014. O objetivo era simples, dar aos desenvolvedores do React o direito de usar o Material Design. A comunidade React está entusiasmada com os novos recursos, então a equipe do MUI continua adicionando-os.' 
   }
 
-  const [teste, setTeste] = useState('/*Coloque o mouse em um ícone*/')
+  const [teste, setTeste] = useState('/*Coloque o mouse ou clique em um ícone*/')
   return (
     <div className={Style.containerFour} id="Skills">
       <div className={Style.containergrid}>
@@ -30,47 +30,54 @@ export const Skills = () => {
           className={`${Style.icons}`} 
           onMouseEnter={() => setTeste(infoSkills.html)} 
           onMouseLeave={() => setTeste(infoSkills.defaultText)}
+          onClick={() => setTeste(infoSkills.html)}
           />
         <img src={iconcss} 
           alt="Icon CSS" 
           className={`${Style.icons}`} 
           onMouseEnter={() => setTeste(infoSkills.css)} 
           onMouseLeave={() => setTeste(infoSkills.defaultText)}
+          onClick={() => setTeste(infoSkills.css)}
           />
         <img src={iconjs} 
           alt="Icon JavaScript" 
           className={`${Style.icons}`} 
           onMouseEnter={() => setTeste(infoSkills.javascript)} 
           onMouseLeave={() => setTeste(infoSkills.defaultText)}
+          onClick={() => setTeste(infoSkills.javascript)}
           />
         <img src={iconreact} 
         alt="Icon React" 
         className={`${Style.icons}`} 
         onMouseEnter={() => setTeste(infoSkills.react)} 
-          onMouseLeave={() => setTeste(infoSkills.defaultText)}
+        onMouseLeave={() => setTeste(infoSkills.defaultText)}
+        onClick={() => setTeste(infoSkills.react)}
         />
         <img src={iconboot} 
           alt="Icon Bootstrap" 
           className={`${Style.icons}`} 
           onMouseEnter={() => setTeste(infoSkills.bootstrap)} 
           onMouseLeave={() => setTeste(infoSkills.defaultText)}
+          onClick={() => setTeste(infoSkills.bootstrap)}
           />
         <img src={iconstyled} 
           alt="Icon Styled-Componets" 
           className={`${Style.icons}`} 
           onMouseEnter={() => setTeste(infoSkills.styledComponents)} 
           onMouseLeave={() => setTeste(infoSkills.defaultText)}
+          onClick={() => setTeste(infoSkills.styledComponents)}
           />
         <img src={iconmaterial} 
           alt="Icon Material UI" 
           className={`${Style.icons}`} 
           onMouseEnter={() => setTeste(infoSkills.materialUi)} 
           onMouseLeave={() => setTeste(infoSkills.defaultText)}
+          onClick={() => setTeste(infoSkills.materialUi)}
           />
       </div>
       <div className={Style.containertext}>
         <h3>Descrição:</h3>
-        <span>{teste}</span>
+        <span className={Style.espec}>{teste}</span>
       </div>
 
     </div>
