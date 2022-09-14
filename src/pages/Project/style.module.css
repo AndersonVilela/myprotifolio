@@ -20,7 +20,7 @@
 .containergrid {
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: auto;
   grid-gap: 1rem;
 }
@@ -37,5 +37,13 @@
 @media (max-width: 429px) {
   .titleThird {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 811px) {
+  .containergrid {
+
+  grid-template-columns: repeat(2, 1fr);
+
   }
 }

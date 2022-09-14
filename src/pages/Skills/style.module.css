@@ -49,7 +49,9 @@
 
 /*Media Querys*/
 
-@media (max-width: 801px) {
+
+
+@media (max-width: 811px) {
  .containergrid {
   margin-right: 1rem;
   grid-template-columns: repeat(2, 1fr);

@@ -19,24 +19,24 @@ export const Project = () => {
         />
         <BoxC
           className={Style.grid}
-          title='Github Profile'
-          imageUrl='https://github.com/AndersonVilela/github-profile/blob/main/src/images-para-readme/profile1.PNG?raw=true'
-          body='Colocando o nome de usuário do github retorna quantos seguindo, sequidores, e linguagens mais utilizadas.'
-          direction='https://github.com/AndersonVilela/github-profile'
+          title='Landing Page 2.0'
+          imageUrl='https://github.com/AndersonVilela/landing-page2.0/blob/main/2022-09-14_12-18.png?raw=true'
+          body='Uma landing Page de cafeteria para desenvolvedores.'
+          direction='https://github.com/AndersonVilela/landing-page2.0'
         />
-         <BoxC
+        <BoxC
           className={Style.grid}
-          title='Github Profile'
-          imageUrl='https://github.com/AndersonVilela/github-profile/blob/main/src/images-para-readme/profile1.PNG?raw=true'
-          body='Colocando o nome de usuário do github retorna quantos seguindo, sequidores, e linguagens mais utilizadas.'
-          direction='https://github.com/AndersonVilela/github-profile'
+          title='Crypto-App'
+          imageUrl='https://github.com/AndersonVilela/crypto-App/blob/main/2022-09-14_12-17.png?raw=true'
+          body='Uma aplicação em react utilizando uma api de crypto moedas.'
+          direction='https://github.com/AndersonVilela/crypto-App'
         />
-         <BoxC
+        <BoxC
           className={Style.grid}
-          title='Github Profile'
-          imageUrl='https://github.com/AndersonVilela/github-profile/blob/main/src/images-para-readme/profile1.PNG?raw=true'
-          body='Colocando o nome de usuário do github retorna quantos seguindo, sequidores, e linguagens mais utilizadas.'
-          direction='https://github.com/AndersonVilela/github-profile'
+          title='Pokedex2'
+          imageUrl='https://github.com/AndersonVilela/pokedex2/blob/main/2022-09-14_12-20.png?raw=true'
+          body='Uma aplicação inpirada em pokemon com a pokedex de alguns pokemons do desenho em rect.'
+          direction='https://github.com/AndersonVilela/pokedex2'
         />
       </div>
     </div>
