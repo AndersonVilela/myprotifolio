@@ -1,6 +1,6 @@
 import styles from './style.module.css';
 import Logo from '../../assets/images/Logo4.png';
-import { BrowserRouter as  Router, Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 export const Header = () => {
@@ -17,10 +17,10 @@ export const Header = () => {
 
       <div>
         <ul className={styles.Refs}>
-          <li><a href='#Start'>Começar</a></li>
-          <li><a href='#Second'>Sobre</a></li>
-          <li><a href='#Project'>Projetos</a></li>
-          <li><a href='#Skills'>Habilidades</a></li>
+          <li><Link to='/'>Começar</Link></li>
+          <li><Link to='/Sobre'>Sobre</Link></li>
+          <li><Link to='/Projetos'>Projetos</Link></li>
+          <li><Link to='/Habilidades'>Habilidades</Link></li>
         </ul>
       </div>
     </div>

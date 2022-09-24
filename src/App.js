@@ -5,18 +5,21 @@ import { About } from './pages/About';
 import { Project } from './pages/Project';
 import { Skills } from './pages/Skills';
 import './styles/Global.css';
-import { BrowserRouter as  Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <>
-      <Header />
-      <Start />
-      <About />
-      <Project />
-      <Skills />
-      <Footer />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Start />} />
+          <Route path="/Sobre" element={<About />} />
+          <Route path="/Projetos" element={<Project />} />
+          <Route path="/Habilidades" element={<Skills />} />
+        </Routes>
+      </Router>
     </>
   );
 }
