@@ -92,5 +92,8 @@
 }
 
 @media (max-width: 375.1px) {
-  
+  .containergrid img {
+    width: 70px;
+    height: 70px;
+  }
 }
